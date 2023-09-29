@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.calculator
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+files: []
+electronVersion: 26.2.4

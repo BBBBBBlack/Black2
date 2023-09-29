@@ -1,0 +1,22 @@
+//es6转es5使用
+//{
+//  "presets": [
+//    "es2015"
+//  ],
+//  "plugins": []
+//}
+
+
+//jest使用
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
